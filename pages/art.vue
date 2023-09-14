@@ -1,5 +1,5 @@
 <script setup>
-  import { NGradientText } from 'naive-ui'
+  import { NGradientText, NGrid, NGi } from 'naive-ui'
 </script>
 
 <template>
@@ -51,7 +51,6 @@
         </div>
       </div>
     </section>
-    <!--
     <section>
       <div class="text-8xl h-full w-full tracking-tighter p-8">
         <NGradientText
@@ -61,8 +60,7 @@
           }"
           :size="58"
         >
-       
-        Sketch Book
+          Sketch Book
         </NGradientText>
       </div>
       <div class="p-8">
@@ -71,7 +69,7 @@
           :cols="4"
         >
           <NGi>
-            <imgq
+            <Imgq
               src="/assets/images/sketches/Bad Hair Day.jpg"
               class="carousel-img"
             />
@@ -220,10 +218,8 @@
             <div class="sketch-title">Untitled Boats</div>
           </NGi>
         </NGrid>
-        
       </div>
     </section>
-    -->
   </div>
 </template>
 <style scoped>

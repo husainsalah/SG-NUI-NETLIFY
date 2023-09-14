@@ -9,7 +9,6 @@
 </script>
 <template>
   <div>
-    <TheHeader></TheHeader>
     <section class="max-w-screen mx-auto mt-4">
       <div class="grid pl-8 pr-8 max-w-xlg mx-full bg-white space-x-8 grid grid-flow-col">
         <div class="col-span-3 lg:col-span-2">

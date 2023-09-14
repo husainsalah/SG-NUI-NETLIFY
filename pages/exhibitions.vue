@@ -47,7 +47,7 @@
         return data.data.projects.nodes as Array<ProjectData>;
       }
     });
-    
+    */
   const items = ref([
     {
       id: '1',
@@ -73,7 +73,7 @@
       endDate: 'June 11 2023',
       projectImage: 'assets/images/sketches/Bad Hair Day.jpg'
     }
-  ])*/
+  ])
 </script>
 <template>
   <div>
