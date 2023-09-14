@@ -51,6 +51,7 @@
         </div>
       </div>
     </section>
+    <!--
     <section>
       <div class="text-8xl h-full w-full tracking-tighter p-8">
         <NGradientText
@@ -220,6 +221,7 @@
         </NGrid>
       </div>
     </section>
+    -->
   </div>
 </template>
 <style scoped>
