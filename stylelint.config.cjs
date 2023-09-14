@@ -10,6 +10,13 @@ module.exports = {
     'value-keyword-case': null,
     'selector-class-pattern': '^[a-z][a-zA-Z0-9_-]+$',
     'selector-id-pattern': '^[a-z][a-zA-Z0-9_-]+$',
-    'prettier/prettier': true
+    'prettier/prettier': true,
+    'at-rule-no-unknown': null,
+    'scss/at-rule-no-unknown': [
+      true,
+      {
+        ignoreAtRules: ['tailwind']
+      }
+    ]
   }
 }

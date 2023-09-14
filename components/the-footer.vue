@@ -1,30 +1,10 @@
 <template>
-  <NLayoutFooter bordered>
-    <div class="container">
-      <NP>
-        Made with
-        <NText type="error"> ♥ </NText>
-        by KosKosovuch using
-        <NA
-          href="https://nuxt.com/"
-          target="_blank"
-        >
-          Nuxt 3
-        </NA>
-        +
-        <NA
-          href="https://www.naiveui.com"
-          target="_blank"
-        >
-          NaiveUI
-        </NA>
-      </NP>
-    </div>
-  </NLayoutFooter>
+  <NDivider></NDivider>
+  <div className="bg-white w-full text-center ">Copyright © Scott Grooves, 2023</div>
 </template>
 
 <script setup lang="ts">
-  import { NText, NP, NLayoutFooter, NA } from 'naive-ui'
+  import { NDivider } from 'naive-ui'
 </script>
 
 <style lang="scss" scoped>
