@@ -1,13 +1,6 @@
-<template>
+<template id="splash">
   <div>
-    <div class="relative flex items-center justify-center h-screen overflow-hidden">
-      <div class="static justify-center">
-        <a
-          class="static flex z-30 p-5 text-2xl border-white border-2 text-center text-2xl bg-white bg-opacity-60 transition-all animate-pulse hover:bg-white hover:bg-opacity-80 hover:scale-105 hover:animate-none"
-          href="/about"
-          >SG Art<br />Enter<br />Here</a
-        >
-      </div>
+    <div class="relative flex items-center justify-center h-screen overflow-none">
       <video
         autoplay
         loop
@@ -20,9 +13,23 @@
         />
         Your browser does not support the video tag.
       </video>
+      <div class="relative justify-center">
+        <a
+          class="relative w-full z-20 p-5 text-2xl border-white border-2 text-center text-2xl bg-white bg-opacity-60 transition-all animate-pulse hover:bg-white hover:bg-opacity-80 hover:scale-105 hover:animate-none"
+          href="/about"
+        >
+          SG Art Enter Here</a
+        >
+      </div>
     </div>
   </div>
 </template>
 <script setup lang="ts">
-  import { NGradientText } from 'naive-ui'
+  // import { NGradientText } from 'naive-ui'
 </script>
+
+<style scoped>
+  .header-container {
+    display: none !important;
+  }
+</style>

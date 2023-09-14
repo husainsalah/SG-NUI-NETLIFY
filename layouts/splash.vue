@@ -3,17 +3,11 @@
     class="root-layout"
     position="absolute"
   >
-    <div class="header-container">
-      <TheHeader />
-    </div>
     <NLayoutContent>
       <div class="container p-y">
         <slot name="default" />
       </div>
     </NLayoutContent>
-    <div class="footer-container">
-      <TheFooter />
-    </div>
   </NLayout>
 </template>
 

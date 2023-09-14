@@ -5,9 +5,9 @@
 <template>
   <div>
     <section>
-      <div class="grid m-8 h-fit bg-white grid grid-flow-col">
-        <div class="col-span-4 columns-1 h-fit w-fit">
-          <div class="text-8xl h-fit w-fit tracking-tighter">
+      <div class="flex m-8 bg-white grid grid-flow-col">
+        <div class="flex column-12 sm:columns-12 md:columns-6 lg:columns-1">
+          <div class="flex text-8xl h-fit w-fit tracking-tighter">
             <NGradientText
               :gradient="{
                 from: 'rgb(0, 0, 0)',
@@ -20,19 +20,21 @@
             </NGradientText>
           </div>
         </div>
-        <div class="grid columns-span-8 p-8 max-w-xlg mx-4 text-2xl font-thin text-gray-dark">
-          <div class="mb-4 tracking-wide leading-8">
+        <div
+          class="flex-table columns-12 sm:columns-12 md:columns-6 lg:columns-1 p-8 max-w-xlg mx-4 text-2xl font-thin text-gray-dark"
+        >
+          <div class="flex mb-4 tracking-wide leading-8">
             Sgart, known in the music world as Scott Grooves, is a Detroit-based artist and musician who seamlessly
             combines music and elements of industrialism to create captivating immersive experience and artworks.
             Renowned for his contributions to jazz, electronic music and balancing man with machine; the organic with
             the synthetic.
           </div>
-          <div class="mb-4 tracking-wide leading-8">
+          <div class="flex mb-4 tracking-wide leading-8">
             Since the early 2000s, Grooves has established himself as a fiercely independent artist, primarily releasing
             music on his own labels: Natural Midi, Modified Suede Recordings, and From The Studio of Scott Grooves. His
             most recent drop, ‘E2E4 Reframed’, a live reimagined cover of the immortal classic from 1984.
           </div>
-          <div class="mb-4 tracking-wide leading-8">
+          <div class="flex mb-4 tracking-wide leading-8">
             Grooves was included in an inclusive seventy artist exhibition titled Motion, curated by Roula David at
             Spotlite, Detroit. In May 2023, he made his debut as an artist in residence at FILTER Detroit, the artist
             residency and contemporary art platform established in 2010 to promote collaboration among residents,
@@ -40,7 +42,7 @@
             Grooves' unique artistic style, which involves incorporating mass-produced materials from consumer culture
             and giving them their own distinct language.
           </div>
-          <div class="mb-4 tracking-wide leading-8">
+          <div class="flex mb-4 tracking-wide leading-8">
             For his second solo exhibition After the Dance, curated by Elysia Borowy at the underground artist space Red
             Door Digital, Grooves crafted five installations that delve into experimental expressionism in the realms of
             both visual arts and electronic music. Grooves' installations serve as a profound personal response to the
