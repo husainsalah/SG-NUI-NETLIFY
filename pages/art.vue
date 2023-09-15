@@ -18,7 +18,7 @@
           </NGradientText>
         </div>
 
-        <div class="flex col-span-8 max-w-xlg mx-full text-2xl tracking-wider font-thin text-gray-dark p-8">
+        <div class="flex col-span-8 max-w-xlg mx-full text-2xl tracking-wider font-thin p-8">
           <ul>
             <li><a href="">Press Release</a></li>
             <li>
@@ -41,7 +41,7 @@
             Interview
           </NGradientText>
         </div>
-        <div class="flex col-span-8 text-2xl font-thin text-gray-dark p-8">
+        <div class="flex col-span-8 text-2xl font-thin p-8">
           <a
             class="inline-flex"
             href="/"
@@ -231,6 +231,6 @@
   }
 
   .sketch-title {
-    @apply text-xl text-gray font-thin uppercase w-full text-center;
+    @apply text-xl font-thin uppercase w-full text-center;
   }
 </style>

@@ -253,7 +253,9 @@ module.exports = {
   |
   */
 
-  textColors: colors,
+  textColors: {
+    textGray: '#CCCCCC'
+  },
 
   /*
   |-----------------------------------------------------------------------------

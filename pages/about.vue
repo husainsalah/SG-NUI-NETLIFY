@@ -20,10 +20,8 @@
             </NGradientText>
           </div>
         </div>
-        <div
-          class="grid columns-12 sm:columns-12 md:columns-6 lg:columns-1 max-w-xlg mx-4 text-2xl hairilne p-8 text-gray-dark"
-        >
-          <div class="mb-4 tracking-wide leading-8 hairilne">
+        <div class="grid columns-12 sm:columns-12 md:columns-6 lg:columns-1 max-w-xlg mx-4 text-2xl font-thin p-8">
+          <div class="mb-4 tracking-wide leading-8 font-thin">
             Sgart, known in the music world as Scott Grooves, is a Detroit-based artist and musician who seamlessly
             combines music and elements of industrialism to create captivating immersive experience and artworks.
             Renowned for his contributions to jazz, electronic music and balancing man with machine; the organic with
@@ -243,7 +241,7 @@
             </NGradientText>
           </h1>
         </div>
-        <div class="col-span-8 pl-8 pr-8 max-w-xlg mx-full text-2xl hairilne text-gray-dark">
+        <div class="col-span-8 pl-8 pr-8 max-w-xlg mx-full text-2xl font-thin">
           <div class="mb-4 tracking-wide leading-8">
             3AM Thought: I see with my ears when I write music and I see with my eyes when I make art.
           </div>
@@ -269,9 +267,7 @@
       </div>
     </section>
     <section>
-      <div
-        class="flex col-span-12 m-auto pl-96 pr-96 w-full place-object-center mx-auto text-2xl hairilne text-gray-dark"
-      >
+      <div class="flex col-span-12 m-auto pl-96 pr-96 w-full place-object-center mx-auto text-2xl font-thin">
         <video
           nocontrols
           muted
@@ -303,14 +299,14 @@
             </NGradientText>
           </h1>
         </div>
-        <div class="p-8 flex col-span-8 max-w-xlg mx-full text-2xl hairilne text-gray-dark">
+        <div class="p-8 flex col-span-8 max-w-xlg mx-full text-2xl font-thin">
           <form
             method="POST"
             action="https://herotofu.com/start"
           >
             <div class="p-8">Stay updated with the latest from Scott Grooves by siging up for the Newsletter.</div>
             <label class="inline mb-6 p-8">
-              <span class="text-gray-700">Your name</span>
+              <span class="flex">Your name</span>
               <input
                 type="text"
                 name="name"
@@ -319,7 +315,7 @@
               />
             </label>
             <label class="inline mb-6 p-8">
-              <span class="w-50 text-2xl text-gray-700">Email address</span>
+              <span class="w-50 text-2xl">Email address</span>
               <input
                 name="email"
                 type="email"
@@ -357,7 +353,7 @@
             </NGradientText>
           </h1>
         </div>
-        <div class="flex col-span-8 max-w-xlg mx-full text-2xl hairilne text-gray-dark">
+        <div class="flex col-span-8 max-w-xlg mx-full text-2xl font-thin">
           <div class="p-8 mb-4 tracking-wide leading-8">
             <!-- Facebook -->
             <a href="/">
@@ -413,6 +409,6 @@
   }
 
   .sketch-title {
-    @apply text-xl text-gray hairilne uppercase w-full text-center;
+    @apply text-xl font-thin uppercase w-full text-center;
   }
 </style>
