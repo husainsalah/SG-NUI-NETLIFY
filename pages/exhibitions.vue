@@ -1,16 +1,8 @@
-<script>
-  import 'assets/main.css'
-  import { defineComponent } from '@vue/composition-api'
-  import pkg from 'naive-ui'
-  const { NDivider, NGradientText } = pkg
-  export default defineComponent({
-    components: {
-      NGradientText,
-      NDivider
-    }
-  })
+<script setup lang="ts">
+  import { NDivider, NGradientText, NImage } from 'naive-ui'
 
-  /*    interface ProjectData {
+  /*
+      interface ProjectData {
       title: string;
       date: string;
       excerpt: string;
@@ -20,8 +12,8 @@
       endDate: string;
       projectImage: Node;
 }
-   
-    const route = useRoute();
+   */
+  /*  const route = useRoute();
     const config = useRuntimeConfig();
 
   const { data, refresh, pending } = await useFetch(config.public.wordpressUrl, {
@@ -48,7 +40,7 @@
       }
     });
     */
-  const items = ref([
+  const projects = ref([
     {
       id: '1',
       title: 'After The Dance',
@@ -71,15 +63,13 @@
       venue: 'Filter Detroit',
       startDate: 'May 19 2023',
       endDate: 'June 11 2023',
-      projectImage: 'assets/images/sketches/Bad Hair Day.jpg'
+      projectImage: './assets/images/girl-groups.jpg'
     }
   ])
 </script>
 <template>
   <div>
-    <TheHeader />
-
-    <div class="col-span-12 lg:col-span-2">
+    <div class="columns-1 lg:col-span-2">
       <h1 class="p-8 text-6xl tracking-tighter leading-11 h-full">
         <NGradientText
           :gradient="{
@@ -93,29 +83,28 @@
       </h1>
     </div>
 
-    <div class="p-8 flex columns-2">
+    <div class="p-8 flex columns-1 lg:columns-2">
       <div
-        :v-for="item in items"
-        :key="item.id"
+        v-for="project in projects"
+        :key="project.id"
       >
         <div class="p-2 w-50 rounded-lg text-2xl font-thin transition-all">
-          <NuxtLink :to="item.uri"
-            ><h2 class="font-bold text-4xl hover:-translate-y-1">{{ item.title }}</h2></NuxtLink
+          <NuxtLink :to="project.uri"
+            ><h2 class="font-bold text-4xl hover:-translate-y-1">{{ project.title }}</h2></NuxtLink
           >
           <NDivider></NDivider>
-          <p>{{ item.venue }} : {{ item.startDate }} - {{ item.endDate }}</p>
+          <p>{{ project.venue }} : {{ project.startDate }} - {{ project.endDate }}</p>
           <NDivider></NDivider>
-          <p>{{ item.excerpt }}</p>
+          <p>{{ project.excerpt }}</p>
           <p></p>
           <p></p>
 
-          <img
-            :src="item.projectImage"
+          <NImage
+            :src="project.projectImage"
             class="p-4"
           />
         </div>
       </div>
     </div>
-    <TheFooter />
   </div>
 </template>

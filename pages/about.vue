@@ -5,7 +5,7 @@
 <template>
   <div>
     <section>
-      <div class="flex m-8 bg-white grid grid-flow-col">
+      <div class="flex bg-white grid grid-flow-col">
         <div class="flex column-12 sm:columns-12 md:columns-6 lg:columns-1">
           <div class="flex text-8xl h-fit w-fit tracking-tighter">
             <NGradientText
@@ -21,9 +21,9 @@
           </div>
         </div>
         <div
-          class="flex-table columns-12 sm:columns-12 md:columns-6 lg:columns-1 p-8 max-w-xlg mx-4 text-2xl font-thin text-gray-dark"
+          class="grid columns-12 sm:columns-12 md:columns-6 lg:columns-1 max-w-xlg mx-4 text-2xl hairilne p-8 text-gray-dark"
         >
-          <div class="flex mb-4 tracking-wide leading-8">
+          <div class="mb-4 tracking-wide leading-8 hairilne">
             Sgart, known in the music world as Scott Grooves, is a Detroit-based artist and musician who seamlessly
             combines music and elements of industrialism to create captivating immersive experience and artworks.
             Renowned for his contributions to jazz, electronic music and balancing man with machine; the organic with
@@ -55,7 +55,7 @@
     </section>
 
     <section>
-      <div class="flex p-8 flex-col z-10">
+      <div class="flex flex-col z-10">
         <NCarousel
           effect="card"
           prev-slide-style="transform: translateX(-150%) translateZ(-800px);"
@@ -243,7 +243,7 @@
             </NGradientText>
           </h1>
         </div>
-        <div class="col-span-8 pl-8 pr-8 max-w-xlg mx-full text-2xl font-thin text-gray-dark">
+        <div class="col-span-8 pl-8 pr-8 max-w-xlg mx-full text-2xl hairilne text-gray-dark">
           <div class="mb-4 tracking-wide leading-8">
             3AM Thought: I see with my ears when I write music and I see with my eyes when I make art.
           </div>
@@ -270,7 +270,7 @@
     </section>
     <section>
       <div
-        class="flex col-span-12 m-auto pl-96 pr-96 w-full place-object-center mx-auto text-2xl font-thin text-gray-dark"
+        class="flex col-span-12 m-auto pl-96 pr-96 w-full place-object-center mx-auto text-2xl hairilne text-gray-dark"
       >
         <video
           nocontrols
@@ -303,7 +303,7 @@
             </NGradientText>
           </h1>
         </div>
-        <div class="p-8 flex col-span-8 max-w-xlg mx-full text-2xl font-thin text-gray-dark">
+        <div class="p-8 flex col-span-8 max-w-xlg mx-full text-2xl hairilne text-gray-dark">
           <form
             method="POST"
             action="https://herotofu.com/start"
@@ -357,7 +357,7 @@
             </NGradientText>
           </h1>
         </div>
-        <div class="flex col-span-8 max-w-xlg mx-full text-2xl font-thin text-gray-dark">
+        <div class="flex col-span-8 max-w-xlg mx-full text-2xl hairilne text-gray-dark">
           <div class="p-8 mb-4 tracking-wide leading-8">
             <!-- Facebook -->
             <a href="/">
@@ -413,6 +413,6 @@
   }
 
   .sketch-title {
-    @apply text-xl text-gray font-thin uppercase w-full text-center;
+    @apply text-xl text-gray hairilne uppercase w-full text-center;
   }
 </style>

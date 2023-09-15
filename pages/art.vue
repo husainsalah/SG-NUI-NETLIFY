@@ -1,5 +1,5 @@
-<script setup>
-  import { NGradientText, NGrid, NGi } from 'naive-ui'
+<script setup lang="ts">
+  import { NGradientText, NGrid, NGi, NImage } from 'naive-ui'
 </script>
 
 <template>
@@ -51,7 +51,7 @@
         </div>
       </div>
     </section>
-    <!--
+
     <section>
       <div class="text-8xl h-full w-full tracking-tighter p-8">
         <NGradientText
@@ -70,7 +70,7 @@
           :cols="4"
         >
           <NGi>
-            <Imgq
+            <NImage
               src="/assets/images/sketches/Bad Hair Day.jpg"
               class="carousel-img"
             />
@@ -185,7 +185,7 @@
           </NGi>
           <NGi>
             <img
-              src="/assets/images/sketches/Untitled-B.jpg"
+              src="require('./assets/images/sketches/Untitled-B.jpg')"
               class="carousel-img"
             />
             <div class="sketch-title">Untitled B</div>
@@ -221,7 +221,6 @@
         </NGrid>
       </div>
     </section>
-    -->
   </div>
 </template>
 <style scoped>
