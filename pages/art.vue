@@ -5,55 +5,52 @@
 <template>
   <div>
     <section>
-      <div class="flex p-8 max-w-xlg mx-full bg-white space-x-8 tracking-tighter grid grid-flow-col">
-        <div class="col-span-12 lg:col-span-2">
-          <NGradientText
-            :gradient="{
-              from: 'rgb(0, 0, 0)',
-              to: 'rgb(170, 170, 170)'
-            }"
-            :size="58"
-          >
-            After the Dance
-          </NGradientText>
-        </div>
+      <div class="grid-flow-col gap-4 auto-cols-min">
+        <NGradientText
+          :gradient="{
+            from: 'rgb(0, 0, 0)',
+            to: 'rgb(170, 170, 170)'
+          }"
+          :size="58"
+        >
+          After the Dance
+        </NGradientText>
+      </div>
 
-        <div class="flex col-span-8 max-w-xlg mx-full text-2xl tracking-wider font-thin p-8">
-          <ul>
-            <li><a href="">Press Release</a></li>
-            <li>
-              <a href="">Scott Grooves Exhibition Statement After the Dance/ Curatorial Statement Elysia Borowy</a>
-            </li>
-          </ul>
-        </div>
+      <div class="flex grid-flow-col gap-4 auto-cols-min max-w-xlg mx-full text-2xl tracking-wider font-thin">
+        <ul>
+          <li><a href="pdf/After-the-dance.pdf">Press Release</a></li>
+          <li>
+            <a href="projects/after-the-dance"
+              >Scott Grooves Exhibition Statement After the Dance/ Curatorial Statement Elysia Borowy</a
+            >
+          </li>
+        </ul>
       </div>
     </section>
     <section>
-      <div class="flex p-8 max-w-xlg mx-full bg-white space-x-8 grid grid-flow-col">
-        <div class="col-span-12 lg:col-span-2">
-          <NGradientText
-            :gradient="{
-              from: 'rgb(0, 0, 0)',
-              to: 'rgb(170, 170, 170)'
-            }"
-            :size="58"
-          >
-            Interview
-          </NGradientText>
-        </div>
-        <div class="flex col-span-8 text-2xl font-thin p-8">
-          <a
-            class="inline-flex"
-            href="/"
-            >Alia Benabdellah, Docteure en Géographie Humaine, in conversation with musician and artist Scott Grooves on
-            August 8, 2023
-          </a>
-        </div>
+      <div class="col-span-12 lg:col-span-2">
+        <NGradientText
+          :gradient="{
+            from: 'rgb(0, 0, 0)',
+            to: 'rgb(170, 170, 170)'
+          }"
+          :size="58"
+        >
+          Interview
+        </NGradientText>
+      </div>
+      <div class="flex col-span-8 text-2xl font-thin">
+        <a
+          class="inline-flex"
+          href="press/Alia-in-conversation-with-Scott"
+          >Alia Benabdellah, Docteure en Géographie Humaine, in conversation with musician and artist Scott Grooves on
+          August 8, 2023
+        </a>
       </div>
     </section>
-    <!--
     <section>
-      <div class="text-8xl h-full w-full tracking-tighter p-8">
+      <div class="text-8xl h-full w-full tracking-tighter">
         <NGradientText
           :gradient="{
             from: 'rgb(0, 0, 0)',
@@ -71,28 +68,28 @@
         >
           <NGi>
             <NImage
-              src="/assets/images/sketches/Bad Hair Day.jpg"
+              src="images/sketches/Bad Hair Day.jpg"
               class="carousel-img"
             />
             <div class="sketch-title">Bad Hair Day</div>
           </NGi>
           <NGi>
-            <img
-              src="/assets/images/sketches/Bike Race.jpg"
+            <NImage
+              src="images/sketches/Bike Race.jpg"
               class="carousel-img"
             />
             <div class="sketch-title">Bike Race</div>
           </NGi>
           <NGi>
-            <img
-              src="/assets/images/sketches/Blocking Out Her Thoughts.jpg"
+            <NImage
+              src="images/sketches/Blocking Out Her Thoughts.jpg"
               class="carousel-img"
             />
             <div class="sketch-title">Blocking Out Her Thoughts</div>
           </NGi>
           <NGi>
-            <img
-              src="/assets/images/sketches/Downed Lines.jpg"
+            <NImage
+              src="images/sketches/Downed Lines.jpg"
               class="carousel-img"
             />
             <div class="sketch-title">Downed Lines</div>
@@ -106,29 +103,29 @@
           :cols="4"
         >
           <NGi>
-            <img
-              src="/assets/images/sketches/Guggenhiem.jpg"
+            <NImage
+              src="images/sketches/Guggenhiem.jpg"
               class="carousel-img"
             />
             <div class="sketch-title">Guggenhiem</div>
           </NGi>
           <NGi>
-            <img
-              src="/assets/images/sketches/Important Trade Routes.jpg"
+            <NImage
+              src="images/sketches/Important Trade Routes.jpg"
               class="carousel-img"
             />
             <div class="sketch-title">Important Trade Routes</div>
           </NGi>
           <NGi>
-            <img
-              src="/assets/images/sketches/In-flight Together.jpg"
+            <NImage
+              src="images/sketches/In-flight Together.jpg"
               class="carousel-img"
             />
             <div class="sketch-title">In-flight Together</div>
           </NGi>
           <NGi>
-            <img
-              src="/assets/images/sketches/Light Tunnel.jpg"
+            <NImage
+              src="images/sketches/Light Tunnel.jpg"
               class="carousel-img"
             />
             <div class="sketch-title">Light Tunnel</div>
@@ -142,29 +139,29 @@
           :cols="4"
         >
           <NGi>
-            <img
-              src="/assets/images/sketches/Manta Rays.jpg"
+            <NImage
+              src="images/sketches/Manta Rays.jpg"
               class="carousel-img"
             />
             <div class="sketch-title">Manta Rays</div>
           </NGi>
           <NGi>
-            <img
-              src="/assets/images/sketches/Sea Horses.jpg"
+            <NImage
+              src="images/sketches/Sea Horses.jpg"
               class="carousel-img"
             />
             <div class="sketch-title">Sea Horses</div>
           </NGi>
           <NGi>
-            <img
-              src="/assets/images/sketches/Stars-lament.jpg"
+            <NImage
+              src="images/sketches/Stars-lament.jpg"
               class="carousel-img"
             />
             <div class="sketch-title">Stars lament</div>
           </NGi>
           <NGi>
-            <img
-              src="/assets/images/sketches/The Clown.jpg"
+            <NImage
+              src="images/sketches/The Clown.jpg"
               class="carousel-img"
             />
             <div class="sketch-title">The Clown</div>
@@ -177,29 +174,29 @@
           :cols="4"
         >
           <NGi>
-            <img
-              src="/assets/images/sketches/Untitled-A.jpg"
+            <NImage
+              src="images/sketches/Untitled-A.jpg"
               class="carousel-img"
             />
             <div class="sketch-title">Untitled A</div>
           </NGi>
           <NGi>
-            <img
-              src="require('./assets/images/sketches/Untitled-B.jpg')"
+            <NImage
+              src="images/sketches/Untitled-B.jpg"
               class="carousel-img"
             />
             <div class="sketch-title">Untitled B</div>
           </NGi>
           <NGi>
-            <img
-              src="/assets/images/sketches/Untitled C.jpg"
+            <NImage
+              src="images/sketches/Untitled C.jpg"
               class="carousel-img"
             />
             <div class="sketch-title">Untitled C</div>
           </NGi>
           <NGi>
-            <img
-              src="/assets/images/sketches/Untitled-D.jpg"
+            <NImage
+              src="images/sketches/Untitled-D.jpg"
               class="carousel-img"
             />
             <div class="sketch-title">Untitled D</div>
@@ -212,8 +209,8 @@
           :cols="4"
         >
           <NGi>
-            <img
-              src="/assets/images/sketches/Untitled-Boats.jpg"
+            <NImage
+              src="images/sketches/Untitled-Boats.jpg"
               class="carousel-img"
             />
             <div class="sketch-title">Untitled Boats</div>
@@ -221,7 +218,6 @@
         </NGrid>
       </div>
     </section>
-    -->
   </div>
 </template>
 <style scoped>

@@ -1,5 +1,7 @@
 <script setup lang="ts">
   import { NDivider, NGradientText, NImage } from 'naive-ui'
+  // const imgUrl = new URL('./assets/images/zulu-robot.jpg');
+  // const imgUrl2 = new URL('./assets/images/girl-groups.jpg');
 
   /*
       interface ProjectData {
@@ -47,11 +49,11 @@
       date: '7/24/2023',
       excerpt:
         'Detroit-based interdisciplinary artist Scott Grooves has finalized the debut iteration of his most ambitious project to date.  Titled after Marvin Gaye\'s soulful record "After the Dance\,\”  Grooves delves into the realm beyond the dance floor\, prompting viewers to ponder what lies ahead. The exhibition will open on Friday, September 22 at 5pm to 8pm at Red Door Digital. A performance will be held at 7:30pm at the opening. All are welcome to attend.',
-      uri: '/project/red-door-digital',
+      uri: '/projects/after-the-dance',
       venue: 'Red Door Digital',
       startDate: 'May 19, 2023',
       endDate: 'June 11 2023',
-      projectImage: 'assets/images/zulu-robot.jpg'
+      projectImage: 'images/FreeJazz.png'
     },
     {
       id: '2',
@@ -63,14 +65,14 @@
       venue: 'Filter Detroit',
       startDate: 'May 19 2023',
       endDate: 'June 11 2023',
-      projectImage: './assets/images/girl-groups.jpg'
+      projectImage: 'images/filterDetroit.jpg'
     }
   ])
 </script>
 <template>
   <div>
     <div class="columns-1 lg:col-span-2">
-      <h1 class="p-8 text-6xl tracking-tighter leading-11 h-full">
+      <h1 class="text-6xl tracking-tighter leading-11 h-full">
         <NGradientText
           :gradient="{
             from: 'rgb(0, 0, 0)',
@@ -83,7 +85,7 @@
       </h1>
     </div>
 
-    <div class="p-8 flex columns-1 lg:columns-2">
+    <div class="grid-flow-col auto-cols-min-2 gap-5">
       <div
         v-for="project in projects"
         :key="project.id"
@@ -101,7 +103,7 @@
 
           <NImage
             :src="project.projectImage"
-            class="p-4"
+            class="pl-96 pr-96 p-8"
           />
         </div>
       </div>
