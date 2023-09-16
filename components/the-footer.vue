@@ -1,6 +1,6 @@
 <template>
   <NDivider></NDivider>
-  <div class="bg-white w-full text-center pl-96 pr-96">Copyright © Scott Grooves, 2023</div>
+  <div class="bg-white w-full text-center">Copyright © Scott Grooves, 2023</div>
 </template>
 
 <script setup lang="ts">

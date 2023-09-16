@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import { NDivider, NGradientText, NImage } from 'naive-ui'
+  import { NGradientText } from 'naive-ui'
 </script>
 <template>
   <div>
@@ -21,18 +21,6 @@
 
     <div class="grid-flow-col auto-cols-min-2 gap-5">
       <div class="p-2 w-50 rounded-lg text-2xl font-thin transition-all">
-        <h2 class="font-bold text-2xl">
-          A site-specific installation by Scott Grooves A solo exhibition exploring the rich overlap of art and music
-        </h2>
-
-        <NDivider></NDivider>
-        <p class="p-8">Red Door Digital : On view September 22 through September 30, 20-23</p>
-        <NDivider></NDivider>
-        <NImage
-          src="/images/FreeJazz.png"
-          class="pl-96 pr-96 p-8"
-        >
-        </NImage>
         <p class="p-8">
           On the occasion of Grooves’ second solo exhibition, writer, and music scholar Alia Benabdellah had the
           opportunity to sit down at La Ventana Cafe with Scott Grooves to explore his newfound passion for visual art

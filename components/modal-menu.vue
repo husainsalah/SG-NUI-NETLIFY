@@ -71,7 +71,7 @@
       class="pt-10"
     >
       <NCard
-        style="position: absolute; top: 0; right: 8%; bottom: 0; z-index: 20; width: 92%; height: 100%"
+        style="position: absolute; top: 0; bottom: 0; z-index: 20; width: 100%; height: 100%"
         preset="modal"
         :bordered="true"
         :mask-closable="false"
@@ -79,23 +79,41 @@
         role="dialog"
         aria-modal="true"
       >
-        <!--
-            <div class="w-90 text-right -pt-40 pr-24">
-               <button  class="bg-white text-white hover:scale-110 hover:text-white hover:bg-opacity-80" aria-label="Close Menu" @click=" showModal = false">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    viewBox="0 0 24 24" class="z-50 w-12 h-12 align-top">
-                                    <line x1="4" y1="20" 
-                                            x2="20" y2="4" 
-                                            stroke="black" 
-                                            stroke-width="2"/>
-                                        <line x1="4" y1="4" 
-                                            x2="20" y2="20" 
-                                            stroke="black" 
-                                            stroke-width="2"/>
-                                </svg>
-                            </button>
-            </div>
-           -->
+        <div class="w-90 text-right -pt-40 pr-8">
+          <button
+            class="bg-white text-white hover:scale-110 hover:text-white hover:bg-opacity-80"
+            aria-label="Close Menu"
+            @click="showModal = false"
+          >
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              class="z-50 w-12 h-12 align-top"
+            >
+              <line
+                x1="4"
+                y1="20"
+                x2="20"
+                y2="4"
+                stroke="black"
+                stroke-width="2"
+              />
+              <line
+                x1="4"
+                y1="4"
+                x2="20"
+                y2="20"
+                stroke="black"
+                stroke-width="2"
+              />
+            </svg>
+          </button>
+        </div>
+
         <span class="menu-item">
           <a href="/">
             <NGradientText
