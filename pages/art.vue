@@ -17,7 +17,7 @@
         </NGradientText>
       </div>
 
-      <div class="flex grid-flow-col gap-4 auto-cols-min max-w-xlg mx-full text-2xl tracking-wider hairline">
+      <div class="flex grid-flow-col gap-4 auto-cols-min max-w-xlg mx-full text-xl tracking-wider hairline">
         <ul>
           <li><a href="pdf/After-the-dance.pdf">Press Release</a></li>
           <li>
@@ -94,14 +94,7 @@
             />
             <div class="sketch-title">Downed Lines</div>
           </NGi>
-        </NGrid>
-      </div>
 
-      <div class="p-8">
-        <NGrid
-          x-gap="12"
-          :cols="4"
-        >
           <NGi>
             <NImage
               src="images/sketches/Guggenhiem.jpg"
@@ -130,14 +123,6 @@
             />
             <div class="sketch-title">Light Tunnel</div>
           </NGi>
-        </NGrid>
-      </div>
-
-      <div class="p-8">
-        <NGrid
-          x-gap="12"
-          :cols="4"
-        >
           <NGi>
             <NImage
               src="images/sketches/Manta Rays.jpg"
@@ -166,13 +151,6 @@
             />
             <div class="sketch-title">The Clown</div>
           </NGi>
-        </NGrid>
-      </div>
-      <div class="p-8">
-        <NGrid
-          x-gap="12"
-          :cols="4"
-        >
           <NGi>
             <NImage
               src="images/sketches/Untitled-A.jpg"
@@ -201,13 +179,6 @@
             />
             <div class="sketch-title">Untitled D</div>
           </NGi>
-        </NGrid>
-      </div>
-      <div class="p-8">
-        <NGrid
-          x-gap="12"
-          :cols="4"
-        >
           <NGi>
             <NImage
               src="images/sketches/Untitled-Boats.jpg"
