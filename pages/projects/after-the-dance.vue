@@ -3,25 +3,22 @@
 </script>
 <template>
   <div>
-    <div class="columns-1 lg:col-span-2">
-      <h1 class="text-6xl tracking-tighter leading-11 h-full">
-        <NGradientText
-          :gradient="{
-            from: 'rgb(0, 0, 0)',
-            to: 'rgb(170, 170, 170)'
-          }"
-          :size="58"
-        >
-          After The Dance
-        </NGradientText>
-      </h1>
+    <div class="grid-flow-col auto-cols-min-2 gap-5">
+      <NGradientText
+        :gradient="{
+          from: 'rgb(0, 0, 0)',
+          to: 'rgb(170, 170, 170)'
+        }"
+        :size="52"
+      >
+        After The Dance
+      </NGradientText>
     </div>
 
     <div class="grid-flow-col auto-cols-min-2 gap-5">
       <div class="p-2 w-50 rounded-lg text-2xl font-thin transition-all">
-        <h2 class="font-bold text-2xl">
-          A site-specific installation by Scott Grooves A solo exhibition exploring the rich overlap of art and music
-        </h2>
+        <h2 class="font-bold text-2xl">A site-specific installation by Scott Grooves</h2>
+        <h2>A solo exhibition exploring the rich overlap of art and music</h2>
 
         <NDivider></NDivider>
         <p>Red Door Digital : On view September 22 through September 30, 20-23</p>
