@@ -11,7 +11,7 @@
             from: 'rgb(0, 0, 0)',
             to: 'rgb(170, 170, 170)'
           }"
-          :size="58"
+          :size="52"
         >
           After the Dance
         </NGradientText>
@@ -35,12 +35,12 @@
             from: 'rgb(0, 0, 0)',
             to: 'rgb(170, 170, 170)'
           }"
-          :size="58"
+          :size="52"
         >
           Interview
         </NGradientText>
       </div>
-      <div class="flex col-span-8 text-2xl hairline">
+      <div class="flex col-span-8 text-xl hairline">
         <a
           class="inline-flex"
           href="press/Alia-in-conversation-with-Scott"
@@ -56,15 +56,15 @@
             from: 'rgb(0, 0, 0)',
             to: 'rgb(170, 170, 170)'
           }"
-          :size="58"
+          :size="52"
         >
           Sketch Book
         </NGradientText>
       </div>
-      <div class="p-8">
+      <div class="p-8 hairline">
         <NGrid
           x-gap="12"
-          :cols="4"
+          :cols="2"
         >
           <NGi>
             <NImage
