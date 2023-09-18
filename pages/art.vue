@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div>
+  <div class="p-0 m-0">
     <section>
       <div class="grid-flow-col gap-4 auto-cols-min">
         <NGradientText
@@ -17,7 +17,7 @@
         </NGradientText>
       </div>
 
-      <div class="flex grid-flow-col gap-4 auto-cols-min max-w-xlg mx-full text-2xl tracking-wider font-thin">
+      <div class="flex grid-flow-col gap-4 auto-cols-min max-w-xlg mx-full text-2xl tracking-wider hairline">
         <ul>
           <li><a href="pdf/After-the-dance.pdf">Press Release</a></li>
           <li>
@@ -40,7 +40,7 @@
           Interview
         </NGradientText>
       </div>
-      <div class="flex col-span-8 text-2xl font-thin">
+      <div class="flex col-span-8 text-2xl hairline">
         <a
           class="inline-flex"
           href="press/Alia-in-conversation-with-Scott"

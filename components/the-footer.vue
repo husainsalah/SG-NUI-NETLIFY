@@ -3,7 +3,7 @@
 </template>
 
 <script setup lang="ts">
-  import { NDivider } from 'naive-ui'
+  // import { NDivider } from 'naive-ui'
 </script>
 
 <style lang="scss" scoped>

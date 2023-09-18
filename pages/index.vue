@@ -20,7 +20,7 @@
         >
           <a
             class="flex"
-            href="/projects/after-the-dance"
+            href="/exhibitions"
             >SG <br />Art</a
           >
         </div>

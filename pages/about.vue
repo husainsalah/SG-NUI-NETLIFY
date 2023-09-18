@@ -19,7 +19,7 @@
           </NGradientText>
         </div>
 
-        <div class="grid-flow-col gap-4 auto-cols-min text-xl mt-4 mb-4 font-thin">
+        <div class="grid-flow-col gap-4 auto-cols-min text-xl mt-4 mb-4 hairline">
           <div class="para">
             Sgart, known in the music world as Scott Grooves, is a Detroit-based artist and musician who seamlessly
             combines music and elements of industrialism to create captivating immersive experience and artworks.
@@ -52,7 +52,7 @@
     </section>
 
     <section>
-      <div class="flex flex-col z-10">
+      <div class="flex flex-col z-10 hairline">
         <NCarousel
           effect="card"
           prev-slide-style="transform: translateX(-150%) translateZ(-800px);"
@@ -237,7 +237,7 @@
           Artist Statement<br />
         </NGradientText>
       </div>
-      <div class="max-w-xlg mx-full text-xl font-thin">
+      <div class="max-w-xlg mx-full text-xl hairline">
         <div class="para">
           3AM Thought: I see with my ears when I write music and I see with my eyes when I make art.
         </div>
@@ -291,13 +291,13 @@
           Newsletter
         </NGradientText>
       </div>
-      <div class="p-8 flex col-span-8 max-w-xlg mx-full text-xl font-thin">
+      <div class="flex col-span-8 max-w-xlg mx-full text-xl hairline">
         <form
           method="POST"
           action="https://herotofu.com/start"
         >
           <div class="p-8">Stay updated with the latest from Scott Grooves by siging up for the Newsletter.</div>
-          <label class="inline mb-6 p-8">
+          <label class="inline mb-6">
             <span class="flex">Your name</span>
             <input
               type="text"
@@ -306,7 +306,7 @@
               placeholder="Joe Bloggs"
             />
           </label>
-          <label class="inline mb-6 p-8">
+          <label class="inline mb-6">
             <span class="w-50 text-2xl">Email address</span>
             <input
               name="email"
@@ -341,7 +341,7 @@
           Social Media
         </NGradientText>
       </div>
-      <div class="flex col-span-8 max-w-xlg mx-full text-2xl font-thin">
+      <div class="flex col-span-8 max-w-xlg mx-full text-2xl hairline">
         <div class="p-8 mb-4 tracking-wide leading-8">
           <!-- Facebook -->
           <a href="/">
@@ -402,6 +402,8 @@
   }
 
   .para {
+    font-weight: 100 !important;
+
     @apply mb-4 tracking-wide pt-4 pb-4 leading-8 font-thin;
   }
 </style>
