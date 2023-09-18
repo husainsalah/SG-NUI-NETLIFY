@@ -90,16 +90,14 @@
         v-for="project in projects"
         :key="project.id"
       >
-        <div class="p-2 w-50 rounded-lg text-2xl font-thin transition-all">
+        <div class="p-2 w-50 rounded-lg text-2xl font-hairline transition-all">
           <NuxtLink :to="project.uri"
             ><h2 class="font-bold text-4xl hover:-translate-y-1">{{ project.title }}</h2></NuxtLink
           >
           <NDivider></NDivider>
-          <p>{{ project.venue }} : {{ project.startDate }} - {{ project.endDate }}</p>
+          <p class="font-thin">{{ project.venue }} : {{ project.startDate }} - {{ project.endDate }}</p>
           <NDivider></NDivider>
-          <p>{{ project.excerpt }}</p>
-          <p></p>
-          <p></p>
+          <p class="font-extralight">{{ project.excerpt }}</p>
 
           <NImage
             :src="project.projectImage"

@@ -15,7 +15,7 @@
             }"
             :size="58"
           >
-            About SG Art
+            About
           </NGradientText>
         </div>
 
@@ -396,7 +396,9 @@
   }
 
   .sketch-title {
-    @apply text-xl font-light uppercase w-full text-center;
+    font-weight: 100 !important;
+
+    @apply text-xl uppercase w-full text-center;
   }
 
   .para {

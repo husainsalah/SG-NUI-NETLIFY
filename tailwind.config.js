@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+// let defaultConfig = require('tailwindcss/defaultConfig')()
+
 module.exports = {
   content: ['./src/**/*.{html,js}'],
   plugins: [require('tailwindcss'), require('autoprefixer')],
@@ -34,7 +37,18 @@ module.exports = {
       display: ['Oswald'],
       body: ['"Open Sans"']
     },
-    fontWeights: false,
+    fontWeights: {
+      thin: 100,
+      'extra-light': 200,
+      light: 300,
+      book: 400,
+      medium: 500,
+      semibold: 600,
+      bold: 700,
+      extrabold: 800,
+      black: 900
+    },
+
     extend: {
       spacing: {
         '4xl': '82rem',
@@ -44,6 +58,11 @@ module.exports = {
       borderRadius: {
         '4xl': '2rem'
       }
+    }
+  },
+  variant: {
+    extend: {
+      fontWeight: ['hover', 'focus']
     }
   }
 }
