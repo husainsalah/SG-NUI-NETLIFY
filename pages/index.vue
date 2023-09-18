@@ -1,7 +1,8 @@
-<template id="splash">
+<template>
   <div>
     <div class="relative flex items-center justify-center h-fit overflow-none">
       <video
+        playsinline
         autoplay
         loop
         muted
