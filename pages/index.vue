@@ -21,7 +21,7 @@
           <a
             class="flex text-gray hover:-translate-y-1 hover:text-silver"
             href="/exhibitions"
-            >SG <br />Art</a
+            >Scott <br />Grooves <br />Art</a
           >
         </div>
       </div>

@@ -45,30 +45,31 @@
           and creates a captivating visual dialogue that engages viewers with societal and futuristic themes.
         </p>
         <p class="pt-8 hairline">
-          Scott Grooves unveils a series of six installation works: Sweet Dreams.. Anakin, Foot Work, Vinyl, For All-Dee
-          People, Yellow Sun Bricks, and Found Sound. Through these thought-provoking artworks, Grooves’ challenges the
-          viewer to reflect on the essence of humanity in our modern society, breaking free from the confines of the
-          two-dimensional plane and bridging the gap between observer and artwork. Asking the questions, “What does it
-          really mean to engage with your audience? What are the implications of that?”
+          Scott Grooves unveils a series of six installation works: <i>Sweet Dreams.. Anakin</i>, <i>Foot Work</i>,
+          <i>Vinyl</i>, <i>For All-Dee People</i>, <i>Yellow Sun Bricks</i>, and <i>Found Sound</i>. Through these
+          thought-provoking artworks, Grooves’ challenges the viewer to reflect on the essence of humanity in our modern
+          society, breaking free from the confines of the two-dimensional plane and bridging the gap between observer
+          and artwork. Asking the questions, “What does it really mean to engage with your audience? What are the
+          implications of that?”
         </p>
         <p class="pt-8 hairline">
-          In Sweet Dreams Anakin, Grooves crafts a visual representation of “Star Wars'” Anakin's bed, delving into the
-          complexities of Darth Vader's character while exploring the roots of evil. Foot Work becomes an interactive
-          experience, as visitors are invited to step onto the dance floor and leave their mark in paint, becoming
-          co-creators of the artwork. Found Sound explores Grooves experimentation with materials used by musicians and
-          recontextualizes sound insulation, creating sculptural paintings that comment on sound's functionality and its
-          spatial movement.
+          In <i>Sweet Dreams Anakin</i>, Grooves crafts a visual representation of “Star Wars'” Anakin's bed, delving
+          into the complexities of Darth Vader's character while exploring the roots of evil. <i>Foot Work</i> becomes
+          an interactive experience, as visitors are invited to step onto the dance floor and leave their mark in paint,
+          becoming co-creators of the artwork. <i>Found Sound</i> explores Grooves experimentation with materials used
+          by musicians and recontextualizes sound insulation, creating sculptural paintings that comment on sound's
+          functionality and its spatial movement.
         </p>
         <p class="pt-8 hairline">
-          Yellow Sun Bricks is a site specific installation that responds to the exhibition space, Grooves presents
-          site-specific paintings, echoing the surrounding brick pattern, challenging space as a given by highlighting
-          its constructed quality and inherent malleability.
+          <i>Yellow Sun Bricks</i> is a site specific installation that responds to the exhibition space, Grooves
+          presents site-specific paintings, echoing the surrounding brick pattern, challenging space as a given by
+          highlighting its constructed quality and inherent malleability.
         </p>
         <p class="pt-8 hairline">
-          For All-Dee People, is a series of painted Aldi shopping bags furthering Grooves’ exploration of capitalism
-          and presents a reinterpretation and a reappraisal of a changing value. Grooves paints the many faces he
-          encounters on the shopping bags echoing the history of the ceramic face jug, a pottery type created by the
-          Black enslaved community in the Edgefield district of South Carolina.
+          <i>For All-Dee People</i>, is a series of painted Aldi shopping bags furthering Grooves’ exploration of
+          capitalism and presents a reinterpretation and a reappraisal of a changing value. Grooves paints the many
+          faces he encounters on the shopping bags echoing the history of the ceramic face jug, a pottery type created
+          by the Black enslaved community in the Edgefield district of South Carolina.
         </p>
         <p class="pt-8 hairline">
           In the artwork Vinyl, the artist deconstructs the anatomy of a vinyl record, delving into its essence and
