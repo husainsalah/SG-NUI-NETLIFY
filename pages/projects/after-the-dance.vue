@@ -23,11 +23,13 @@
         <NDivider></NDivider>
         <p>Red Door Digital : On view September 22 through September 30, 20-23</p>
         <NDivider></NDivider>
-        <NImage
-          src="/images/FreeJazz.png"
-          class="pl-96 pr-96 p-8"
-        >
-        </NImage>
+        <div class="h-screen flex items-center justify-center">
+          <NImage
+            src="/images/FreeJazz.png"
+            class="exhibit-img pb-8"
+          >
+          </NImage>
+        </div>
         <p class="hairline">
           Detroit-based interdisciplinary artist Scott Grooves has finalized the debut iteration of his most ambitious
           project to date. Titled after Marvin Gaye's soulful record "After the Dance,” Grooves delves into the realm
@@ -98,5 +100,11 @@
 <style scoped>
   p {
     @apply text-xl;
+  }
+  .exhibit-img {
+    width: auto;
+    height: 100%;
+    object-fit: flex-grow;
+    text-align: center;
   }
 </style>

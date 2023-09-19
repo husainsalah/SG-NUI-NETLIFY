@@ -72,7 +72,7 @@
 <template>
   <div>
     <div class="columns-1 lg:col-span-2">
-      <h1 class="text-6xl tracking-tighter leading-11 h-full">
+      <h1 class="tracking-tighter h-full">
         <NGradientText
           :gradient="{
             from: 'rgb(0, 0, 0)',
@@ -92,19 +92,30 @@
       >
         <div class="p-2 w-50 rounded-lg text-xl font-hairline transition-all">
           <NuxtLink :to="project.uri"
-            ><h2 class="font-bold text-4xl hover:-translate-y-1">{{ project.title }}</h2></NuxtLink
+            ><h2 class="font-bold text-gray text-4xl hover:-translate-y-1 hover:text-silver">
+              {{ project.title }}
+            </h2></NuxtLink
           >
           <NDivider></NDivider>
           <p class="hairline">{{ project.venue }} : {{ project.startDate }} - {{ project.endDate }}</p>
           <NDivider></NDivider>
           <p class="hairline">{{ project.excerpt }}</p>
-
-          <NImage
-            :src="project.projectImage"
-            class="pl-96 pr-96 p-8"
-          />
+          <div class="h-screen flex items-center justify-center">
+            <NImage
+              :src="project.projectImage"
+              class="exhibit-img flex pt-8 pb-8"
+            />
+          </div>
         </div>
       </div>
     </div>
   </div>
 </template>
+<style scoped>
+  .exhibit-img {
+    width: auto;
+    height: 100%;
+    object-fit: flex-grow;
+    text-align: center;
+  }
+</style>

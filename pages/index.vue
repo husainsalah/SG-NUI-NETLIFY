@@ -19,7 +19,7 @@
           class="relative w-full z-20 p-5 text-2xl border-white border-2 text-center text-2xl bg-white bg-opacity-60 transition-all animate-pulse hover:bg-white hover:bg-opacity-80 hover:scale-105 hover:animate-none"
         >
           <a
-            class="flex"
+            class="flex text-gray hover:-translate-y-1 hover:text-silver"
             href="/exhibitions"
             >SG <br />Art</a
           >

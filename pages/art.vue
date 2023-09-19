@@ -5,7 +5,7 @@
 <template>
   <div class="p-0 m-0">
     <section>
-      <div class="grid-flow-col gap-4 auto-cols-min">
+      <div class="h-full w-full tracking-tighter">
         <NGradientText
           :gradient="{
             from: 'rgb(0, 0, 0)',
@@ -19,9 +19,17 @@
 
       <div class="flex grid-flow-col gap-4 auto-cols-min max-w-xlg mx-full text-xl tracking-wider hairline">
         <ul>
-          <li><a href="pdf/After-the-dance.pdf">Press Release</a></li>
           <li>
-            <a href="projects/after-the-dance"
+            <a
+              href="pdf/After-the-dance.pdf"
+              class="text-gray hover:text-silver"
+              >Press Release</a
+            >
+          </li>
+          <li>
+            <a
+              href="projects/after-the-dance"
+              class="text-gray hover:text-silver"
               >Scott Grooves Exhibition Statement After the Dance/ Curatorial Statement Elysia Borowy</a
             >
           </li>
@@ -29,7 +37,7 @@
       </div>
     </section>
     <section>
-      <div class="col-span-12 lg:col-span-2">
+      <div class="h-full w-full tracking-tighter">
         <NGradientText
           :gradient="{
             from: 'rgb(0, 0, 0)',
@@ -42,7 +50,7 @@
       </div>
       <div class="flex col-span-8 text-xl hairline">
         <a
-          class="inline-flex"
+          class="text-gray hover:text-silver"
           href="press/Alia-in-conversation-with-Scott"
           >Alia Benabdellah, Docteure en Géographie Humaine, in conversation with musician and artist Scott Grooves on
           August 8, 2023
@@ -50,7 +58,7 @@
       </div>
     </section>
     <section>
-      <div class="text-8xl h-full w-full tracking-tighter">
+      <div class="h-full w-full tracking-tighter">
         <NGradientText
           :gradient="{
             from: 'rgb(0, 0, 0)',
