@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@nuxtseo/module": "^2.0.0-beta.15",
     "@typescript-eslint/parser": "^5.58.0",
     "@vicons/ionicons5": "^0.12.0",
     "autoprefixer": "^10.4.15",

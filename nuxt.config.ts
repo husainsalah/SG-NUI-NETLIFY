@@ -41,5 +41,12 @@ export default defineNuxtConfig({
 
     plugins: isDev ? [eslintPlugin(), stylelintPlugin()] : []
   },
-  modules: ['@nuxtjs/tailwindcss']
+
+  site: {
+    url: 'https://sumgoodart.com',
+    name: 'Scott Grooves Art',
+    description: 'Detroit-based interdisciplinary artist Scott Grooves Art Webiste',
+    defaultLocale: 'en'
+  },
+  modules: ['@nuxtjs/tailwindcss', '@nuxtseo/module']
 })
