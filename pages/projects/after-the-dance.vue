@@ -3,7 +3,7 @@
 </script>
 <template>
   <div>
-    <div class="grid-flow-col auto-cols-min">
+    <div class="grid-flow-col auto-cols-min w-fit tracking-tighter">
       <NGradientText
         :gradient="{
           from: 'rgb(0, 0, 0)',
@@ -11,7 +11,7 @@
         }"
         :size="52"
       >
-        After The Dance
+        <i>After The Dance</i>
       </NGradientText>
     </div>
 
@@ -30,6 +30,9 @@
           >
           </NImage>
         </div>
+        <div class="flex items-center justify-center hairline">
+          <p class="pb-8 text-sm">Scott Grooves, <i>Untitled</i>, 2023. Ink on paper. Courtesy of the artist.</p>
+        </div>
         <p class="hairline">
           Detroit-based interdisciplinary artist Scott Grooves has finalized the debut iteration of his most ambitious
           project to date. Titled after Marvin Gaye's soulful record "After the Dance,” Grooves delves into the realm
@@ -38,7 +41,7 @@
           welcome to attend.
         </p>
         <p class="pt-8 hairline">
-          After the Dance, curated by Elysia Borowy, features six installations that delve into experimental
+          <i>After the Dance</i>, curated by Elysia Borowy, features six installations that delve into experimental
           expressionism in the realms of both visual arts and electronic music. Grooves' installations serve as a
           profound personal response to the pervasive capitalist-driven culture while also drawing inspiration from
           afrofuturism. Through these thought-provoking explorations, the artist reflects on the impact of consumerism
