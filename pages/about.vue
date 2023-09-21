@@ -376,7 +376,7 @@
             class="w-10 h-10"
           >
             <img
-              src="images/bandcamp-button.png"
+              src="assets/images/bandcamp-button.png"
               width="10%"
             />
           </a>
