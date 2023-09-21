@@ -6,7 +6,7 @@
         autoplay
         loop
         muted
-        class="fixed top-0 z-10 w-auto min-w-full object-display-contain h-fit max-w-none"
+        class="fixed top-0 z-10 max-w-none w-full object-display-cover h-fit"
       >
         <source
           src="~/assets/images/free-jazz-gallery-tour-v1.mp4"

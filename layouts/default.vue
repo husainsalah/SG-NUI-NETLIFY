@@ -37,6 +37,7 @@
 
     .n-layout-content {
       flex: 1 1 auto;
+      max-width: 100% !important;
     }
   }
 </style>

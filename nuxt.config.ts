@@ -15,7 +15,7 @@ export default defineNuxtConfig({
   },
 
   // https://nuxt.com/docs/api/configuration/nuxt-config#css
-  // css: ['@/assets/styles/main.scss'],
+  css: ['@/assets/styles/main.scss'],
 
   // https://nuxt.com/docs/api/configuration/nuxt-config#build
   build: {
