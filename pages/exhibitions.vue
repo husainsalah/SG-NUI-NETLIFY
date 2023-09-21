@@ -1,47 +1,5 @@
 <script setup lang="ts">
   import { NDivider, NGradientText, NImage } from 'naive-ui'
-  // const imgUrl = new URL('./assets/images/zulu-robot.jpg');
-  // const imgUrl2 = new URL('./assets/images/girl-groups.jpg');
-
-  /*
-      interface ProjectData {
-      title: string;
-      date: string;
-      excerpt: string;
-      uri: string;
-      venue: string;
-      startDate: string;
-      endDate: string;
-      projectImage: Node;
-}
-   */
-  /*  const route = useRoute();
-    const config = useRuntimeConfig();
-
-  const { data, refresh, pending } = await useFetch(config.public.wordpressUrl, {
-      method: 'get',
-      query: {
-        query: `
-          query NewQuery {
-          projects(first:10){
-              nodes {
-                id
-                title
-                date
-                uri
-                venue
-                startDate
-                endDate
-                projectImage 
-              }
-          }
-        }`
-      },
-      transform(data) {
-        return data.data.projects.nodes as Array<ProjectData>;
-      }
-    });
-    */
   const projects = ref([
     {
       id: '1',
@@ -77,7 +35,7 @@
             from: 'rgb(0, 0, 0)',
             to: 'rgb(170, 170, 170)'
           }"
-          :size="58"
+          :size="52"
         >
           Exhibitions
         </NGradientText>

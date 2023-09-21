@@ -15,7 +15,7 @@ export default defineNuxtConfig({
   },
 
   // https://nuxt.com/docs/api/configuration/nuxt-config#css
-  css: ['@/assets/styles/main.scss'],
+  // css: ['@/assets/styles/main.scss'],
 
   // https://nuxt.com/docs/api/configuration/nuxt-config#build
   build: {
@@ -46,7 +46,8 @@ export default defineNuxtConfig({
     url: 'https://sumgoodart.com',
     name: 'Scott Grooves Art',
     description: 'Detroit-based interdisciplinary artist Scott Grooves Art Webiste',
-    defaultLocale: 'en'
+    defaultLocale: 'en',
+    trailingSlash: true
   },
   modules: ['@nuxtjs/tailwindcss', '@nuxtseo/module']
 })

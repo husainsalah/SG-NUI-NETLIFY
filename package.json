@@ -22,7 +22,7 @@
     "@nuxtseo/module": "^2.0.0-beta.15",
     "@typescript-eslint/parser": "^5.58.0",
     "@vicons/ionicons5": "^0.12.0",
-    "autoprefixer": "^10.4.15",
+    "autoprefixer": "^10.4.16",
     "eslint": "^8.38.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
@@ -31,7 +31,7 @@
     "naive-ui": "^2.34.3",
     "npm-run-all": "^4.1.5",
     "nuxt": "^3.4.3",
-    "postcss": "^8.4.29",
+    "postcss": "^8.4.30",
     "prettier": "^2.8.7",
     "sass": "^1.62.0",
     "stylelint": "^15.4.0",
@@ -47,6 +47,7 @@
     "vite-plugin-stylelint": "^4.3.0"
   },
   "dependencies": {
-    "@nuxtjs/tailwindcss": "^6.8.0"
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "postcss-cli": "^10.1.0"
   }
 }

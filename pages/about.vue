@@ -344,7 +344,7 @@
       <div class="flex col-span-8 max-w-xlg mx-full text-xl hairline">
         <div class="p-8 mb-4 tracking-wide leading-8">
           <!-- Facebook -->
-          <a href="/">
+          <a href="https://www.facebook.com/ScottGroovesOfficial/">
             <svg
               class="h-10 w-10"
               fill="gray"
@@ -358,7 +358,7 @@
         </div>
         <div class="p-8 mb-4 tracking-wide leading-8">
           <!-- Instagram -->
-          <a href="/">
+          <a href="https://www.instagram.com/scottgroovesdj/">
             <svg
               class="h-10 w-10"
               fill="gray"
@@ -372,14 +372,13 @@
         </div>
         <div class="p-8 mb-4 tracking-wide leading-8 h-50 w-50">
           <a
-            href=""
+            href="https://sgrooves.bandcamp.com/"
             class="w-10 h-10"
           >
             <img
               src="assets/images/bandcamp-button.png"
-              width="50%"
+              width="10%"
             />
-            BandCamp
           </a>
         </div>
       </div>
