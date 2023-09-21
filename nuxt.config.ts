@@ -42,6 +42,17 @@ export default defineNuxtConfig({
     plugins: isDev ? [eslintPlugin(), stylelintPlugin()] : []
   },
 
+  postcss: {
+    plugins: {
+      'postcss-simple-vars': {}
+    }
+  },
+  optimization: {
+    splitChunks: {
+      maxSize: 300000
+    }
+  },
+
   site: {
     url: 'https://sumgoodart.com',
     name: 'Scott Grooves Art',

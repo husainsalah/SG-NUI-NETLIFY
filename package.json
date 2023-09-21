@@ -48,6 +48,6 @@
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.8.0",
-    "postcss-cli": "^10.1.0"
+    "postcss-simple-vars": "^7.0.1"
   }
 }

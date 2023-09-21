@@ -377,7 +377,7 @@
           >
             <img
               src="assets/images/bandcamp-button.png"
-              width="10%"
+              width="20%"
             />
           </a>
         </div>
