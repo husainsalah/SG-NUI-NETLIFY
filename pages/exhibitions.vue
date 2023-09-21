@@ -11,7 +11,7 @@
       venue: 'Red Door Digital',
       startDate: 'May 19, 2023',
       endDate: 'June 11 2023',
-      projectImage: 'images/FreeJazz.png'
+      projectImage: 'images/FreeJazz.webp'
     },
     {
       id: '2',
@@ -22,7 +22,7 @@
       venue: 'Filter Detroit',
       startDate: 'May 19 2023',
       endDate: 'June 11 2023',
-      projectImage: 'images/filterDetroit.jpg'
+      projectImage: 'images/filterDetroit.webp'
     }
   ])
 </script>
