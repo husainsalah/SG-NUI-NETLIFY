@@ -7,7 +7,7 @@
       <TheHeader />
     </div>
     <NLayoutContent>
-      <div class="container p-y">
+      <div class="p-8 p-y">
         <slot name="default" />
       </div>
     </NLayoutContent>
@@ -37,7 +37,6 @@
 
     .n-layout-content {
       flex: 1 1 auto;
-      max-width: 100% !important;
     }
   }
 </style>
