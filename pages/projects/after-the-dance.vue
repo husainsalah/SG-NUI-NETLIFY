@@ -11,21 +11,24 @@
         }"
         :size="52"
       >
-        <i>After The Dance</i>
+        After The Dance
       </NGradientText>
     </div>
 
     <div class="grid-flow-col auto-cols-min-2">
-      <div class="w-50 rounded-lg text-2xl font-thin transition-all">
-        <h2 class="font-bold text-2xl">A site-specific installation by Scott Grooves</h2>
+      <div class="w-50 rounded-lg text-xl hairline transition-all">
+        <h2 class="font-bold text-xl hairline">A site-specific installation by Scott Grooves</h2>
         <h2>A solo exhibition exploring the rich overlap of art and music</h2>
 
         <NDivider></NDivider>
-        <p>Red Door Digital : On view September 22 through September 30, 20-23</p>
+        <p>Red Door Digital</p>
+        <p>On view September 22 through September 30, 20-23</p>
+        <p>Opening 7:00 PM</p>
+        <p>Sam Hooker will perform a 30-minute sound performance at 7:30 pm.</p>
         <NDivider></NDivider>
         <div class="h-screen flex items-center justify-center">
           <NImage
-            src="/images/FreeJazz.png"
+            src="/images/FreeJazz.webp"
             class="exhibit-img pb-8"
           >
           </NImage>

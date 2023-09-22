@@ -20,7 +20,7 @@
         >
           <a
             class="flex text-gray hover:-translate-y-1 hover:text-silver"
-            href="/exhibitions"
+            href="/projects/after-the-dance"
             >Scott <br />Grooves <br />Art</a
           >
         </div>
