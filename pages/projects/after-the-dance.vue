@@ -30,6 +30,7 @@
           <NImage
             src="/images/FreeJazz.webp"
             class="exhibit-img pb-8"
+            width="580px"
           >
           </NImage>
         </div>

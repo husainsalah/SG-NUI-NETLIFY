@@ -36,6 +36,7 @@
         </ul>
       </div>
     </section>
+    <!--
     <section>
       <div class="h-full w-full tracking-tighter">
         <NGradientText
@@ -57,6 +58,7 @@
         </a>
       </div>
     </section>
+    -->
     <section>
       <div class="h-full w-full tracking-tighter">
         <NGradientText
