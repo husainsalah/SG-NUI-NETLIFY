@@ -294,7 +294,7 @@
       <div class="flex col-span-8 max-w-xlg mx-full text-xl hairline">
         <form
           method="POST"
-          action="https://herotofu.com/start"
+          action="https://herotofu.com/7dc78e20-b0c5-11ee-81c0-55aec8346749"
         >
           <div class="p-8">Stay updated with the latest from Scott Grooves by siging up for the Newsletter.</div>
           <label class="inline mb-6">
