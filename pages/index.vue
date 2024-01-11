@@ -9,7 +9,7 @@
         class="fixed top-0 z-10 max-w-none w-full object-display-cover h-fit"
       >
         <source
-          src="~/assets/images/free-jazz-gallery-tour-v1.mp4"
+          src="~/assets/images/untitled%20Folder/bags.jpg"
           type="video/mp4"
         />
         Your browser does not support the video tag.
