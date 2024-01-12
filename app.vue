@@ -13,7 +13,7 @@
   import AppProviders from '~~/components/functional/app-providers'
   import { useTheme } from '~~/composables/useTheme'
 
-  useHead({ title: 'Scott Grroves Art' })
+  useHead({ title: 'Sum Good Art: Scott Grooves Art Practice' })
 
   const { naiveTheme } = useTheme()
   const configProviderProps = computed<ConfigProviderProps>(() => ({
