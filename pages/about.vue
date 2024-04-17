@@ -325,7 +325,7 @@
               Sign up
             </button>
             <div
-              style="text-indent: -99999px; white-space: nowrap; overflow: hidden; position: absolute"
+              style="position: absolute; overflow: hidden; text-indent: -99999px; white-space: nowrap"
               aria-hidden="true"
             >
               <input

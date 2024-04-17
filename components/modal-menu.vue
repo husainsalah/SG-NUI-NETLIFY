@@ -42,7 +42,7 @@
                 to: 'rgb(127, 127, 127)',
                 deg: '270'
               }"
-              :size="48"
+              :size="24"
               :deg="0"
             >
               Home
@@ -57,7 +57,7 @@
                 to: 'rgb(127, 127, 127)',
                 deg: '270'
               }"
-              :size="48"
+              :size="24"
               :deg="90"
             >
               About
@@ -73,10 +73,10 @@
                 to: 'rgb(127, 127, 127)',
                 deg: '270'
               }"
-              :size="48"
+              :size="24"
               :deg="270"
             >
-              Exhibitions
+              Projects
             </NGradientText>
           </a>
         </span>
@@ -89,7 +89,7 @@
                 to: 'rgb(127, 127, 127)',
                 deg: '270'
               }"
-              :size="48"
+              :size="24"
               :deg="180"
             >
               Press & Media
@@ -104,7 +104,7 @@
                 to: 'rgb(127, 127, 127)',
                 deg: '270'
               }"
-              :size="48"
+              :size="24"
               :deg="90"
             >
               Contact
