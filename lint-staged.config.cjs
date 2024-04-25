@@ -1,4 +1,4 @@
 module.exports = {
-  '*.{ts,js,vue}': ['npm run fix:eslint', 'npm run fix:prettier'],
+  '*.{ts,js,vue}': ['npm run fix:eslint'],
   '*.scss': ['npm run fix:stylelint']
 }

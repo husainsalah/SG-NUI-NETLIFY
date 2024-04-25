@@ -22,7 +22,7 @@
 
         <NDivider></NDivider>
         <p>Red Door Digital</p>
-        <p>On view September 22 through September 30, 20-23</p>
+        <p>On view September 22 through September 30, 2023</p>
         <p>Opening 7:00 PM</p>
         <p>Sam Hooker will perform a 30-minute sound performance at 7:30 pm.</p>
         <NDivider></NDivider>
@@ -109,6 +109,7 @@
   p {
     @apply text-xl;
   }
+
   .exhibit-img {
     width: auto;
     height: 100%;
