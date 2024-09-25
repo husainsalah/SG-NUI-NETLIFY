@@ -47,14 +47,6 @@
           Interview
         </NGradientText>
       </div>
-      <div class="flex col-span-8 text-xl hairline">
-        <a
-          class="text-gray hover:text-silver"
-          href="press/Alia-in-conversation-with-Scott"
-          >Alia Benabdellah, Docteure en Géographie Humaine, in conversation with musician and artist Scott Grooves on
-          August 8, 2023
-        </a>
-      </div>
     </section>
     <!--
     <section>
