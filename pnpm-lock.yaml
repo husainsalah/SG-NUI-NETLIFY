@@ -21,9 +21,6 @@ importers:
       date-fns:
         specifier: ^2.30.0
         version: 2.30.0
-      date-fns-tz-v3:
-        specifier: ^3.0.1
-        version: 3.0.1(date-fns@2.30.0)
       i:
         specifier: ^0.3.7
         version: 0.3.7
@@ -2424,11 +2421,6 @@ packages:
   data-view-byte-offset@1.0.0:
     resolution: {integrity: sha512-t/Ygsytq+R995EJ5PZlD4Cu56sWa8InXySaViRzw9apusqsOO2bQP+SbYzAhR0pFKoB+43lYy8rWban9JSuXnA==}
     engines: {node: '>= 0.4'}
-
-  date-fns-tz-v3@3.0.1:
-    resolution: {integrity: sha512-kIeLLNgdqbHvlOQOU2DxYoYnq6NJxwb94Ex8JTCNIwnWKFbvd/NSsgYTdFcvYPT729rApk7+1TRsLA2JG9LL1Q==}
-    peerDependencies:
-      date-fns: '>=2.0.0'
 
   date-fns-tz@3.2.0:
     resolution: {integrity: sha512-sg8HqoTEulcbbbVXeg84u5UnlsQa8GS5QXMqjjYIhS4abEVVKIUwe0/l/UhrZdKaL/W5eWZNlbTeEIiOXTcsBQ==}
@@ -8765,10 +8757,6 @@ snapshots:
       call-bind: 1.0.7
       es-errors: 1.3.0
       is-data-view: 1.0.1
-
-  date-fns-tz-v3@3.0.1(date-fns@2.30.0):
-    dependencies:
-      date-fns: 2.30.0
 
   date-fns-tz@3.2.0(date-fns@3.6.0):
     dependencies:

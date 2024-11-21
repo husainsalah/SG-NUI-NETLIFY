@@ -50,7 +50,6 @@
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@typescript-eslint/eslint-plugin": "^7.7.0",
     "date-fns": "^2.30.0",
-    "date-fns-tz-v3": "^3.0.1",
     "i": "^0.3.7",
     "npm": "^10.5.2",
     "postcss-simple-vars": "^7.0.1",

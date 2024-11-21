@@ -27,7 +27,7 @@ export default defineNuxtConfig({
   // https://nuxt.com/docs/api/configuration/nuxt-config#vite
   vite: {
     optimizeDeps: {
-      include: isDev ? ['naive-ui', 'vueuc', 'date-fns/index.js'] : []
+      include: isDev ? ['naive-ui', 'vueuc', 'date-fns/locale/index.js'] : []
     },
 
     css: {
@@ -65,7 +65,7 @@ export default defineNuxtConfig({
   site: {
     url: 'https://sumgoodart.com',
     name: 'Scott Grooves Art',
-    description: 'Detroit-based interdisciplinary artist Scott Grooves Art Webiste',
+    description: 'Detroit-based interdisciplinary artist Scott Grooves Art Webiste, curated by Elysia Borowy',
     defaultLocale: 'en',
     trailingSlash: true
   },
