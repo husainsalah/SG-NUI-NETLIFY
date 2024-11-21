@@ -56,7 +56,7 @@
         </NGradientText>
       </div>
     </section>
-  -->
+  
     <section>
       <div class="h-full w-full tracking-tighter">
         <NGradientText
@@ -68,8 +68,14 @@
         >
           Photos from Recent Events
         </NGradientText>
+        <NGrid>
+            <NGridItem>
+              <NImage src="" />
+            </NGridItem>
+        </NGrid>
       </div>
     </section>
+    -->
   </div>
 </template>
 <style scoped>

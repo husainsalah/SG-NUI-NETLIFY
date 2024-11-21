@@ -4,7 +4,7 @@
       <div class="relative justify-center w-full font-hairline overflow-none">
         <section>
           <div class="flex flex-col z-10 hairline text-2xl">
-            <a href="/projects/mono-waltz/"> <img src="~/public/images/mono-waltz-crop.webp" /></a>
+            <a href="/projects/brain-crush-16/"> <img src="~/public/images/brain-crush-16.webp" /></a>
           </div>
         </section>
       </div>
