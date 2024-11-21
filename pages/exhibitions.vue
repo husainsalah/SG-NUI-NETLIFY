@@ -2,6 +2,18 @@
   import { NDivider, NGradientText, NImage } from 'naive-ui'
   const projects = ref([
     {
+      id: '5',
+      title: 'Brain Crush 16',
+      date: '11/03/2024',
+      excerpt:
+        'Brain Crush 16, created by artist and musician Scott Grooves, delves into the concept of intellectual attraction through a series of 16 captivating mixed-media artworks.',
+      uri: '/projects/brain-crush-16/',
+      venue: 'Public Records, New York City',
+      startDate: 'Nov 3, 2024',
+      endDate: 'Nov 3, 2024',
+      projectImage: 'images/brain-crush-16.webp'
+    },
+    {
       id: '3',
       title: 'Mono Waltz',
       date: '05/19/2024',
@@ -51,7 +63,7 @@
   ])
 </script>
 <template>
-  <div>
+  <div class="w-4/5 mx-auto">
     <div class="columns-1 lg:col-span-2">
       <h1 class="tracking-tighter h-full">
         <NGradientText

@@ -82,7 +82,7 @@
         </span>
 
         <span class="menu-item"
-          ><a href="/art">
+          ><a href="/press">
             <NGradientText
               :gradient="{
                 from: 'rgb(0, 0, 0)',

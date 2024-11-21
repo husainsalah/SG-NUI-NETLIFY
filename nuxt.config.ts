@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   },
 
   typescript: {
-    strict: true
+    // strict: true
   },
 
   // https://nuxt.com/docs/api/configuration/nuxt-config#css
@@ -27,7 +27,7 @@ export default defineNuxtConfig({
   // https://nuxt.com/docs/api/configuration/nuxt-config#vite
   vite: {
     optimizeDeps: {
-      include: isDev ? ['naive-ui', 'vueuc', 'date-fns-tz/esm/formatInTimeZone'] : []
+      include: isDev ? ['naive-ui', 'vueuc', 'date-fns-tz/formatInTimeZone'] : []
     },
 
     css: {
@@ -44,9 +44,12 @@ export default defineNuxtConfig({
 
   postcss: {
     plugins: {
-      'postcss-simple-vars': {}
+      'postcss-simple-vars': {},
+      tailwindcss: {},
+      autoprefixer: {}
     }
   },
+
   optimization: {
     splitChunks: {
       chunks: 'all',
@@ -65,5 +68,12 @@ export default defineNuxtConfig({
     defaultLocale: 'en',
     trailingSlash: true
   },
-  modules: ['@nuxtjs/tailwindcss', '@nuxtseo/module']
+  server: {
+    hmr: {
+      clientPort: 3000
+    }
+  },
+
+  modules: ['@nuxtjs/tailwindcss', '@nuxtseo/module'],
+  compatibilityDate: '2024-11-18'
 })

@@ -2,7 +2,7 @@
   import { NGradientText, NCarousel, NCarouselItem } from 'naive-ui'
 </script>
 <template>
-  <div>
+  <div class="w-4/5 mx-auto">
     <div class="grid-flow-col auto-cols-min w-fit tracking-tighter">
       <NGradientText
         :gradient="{

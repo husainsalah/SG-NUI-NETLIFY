@@ -2,7 +2,7 @@
   import { NGradientText } from 'naive-ui'
 </script>
 <template>
-  <div class="p-0 m-0">
+  <div class="w-4/5 mx-auto">
     <section>
       <div class="h-full w-full tracking-tighter">
         <NGradientText
@@ -12,24 +12,31 @@
           }"
           :size="52"
         >
-          After the Dance
+          Press & Media
         </NGradientText>
       </div>
 
-      <div class="flex grid-flow-col gap-4 auto-cols-min max-w-xlg mx-full text-xl tracking-wider hairline">
+      <div class="flex grid-flow-col gap-4 auto-cols-min max-w-xlg mb-8 mx-full text-xl tracking-wider hairline">
         <ul>
           <li>
             <a
-              href="pdf/After-the-dance.pdf"
+              href="/public/pdf/After-the-dance.pdf"
               class="text-gray hover:text-silver"
               >Press Release</a
             >
           </li>
           <li>
             <a
-              href="projects/after-the-dance"
+              href="/pages/projects/after-the-dance"
               class="text-gray hover:text-silver"
               >Scott Grooves Exhibition Statement After the Dance/ Curatorial Statement Elysia Borowy</a
+            >
+          </li>
+          <li>
+            <a
+              href="/interview-scott-grooves-elysia"
+              class="text-gray hover:text-silver"
+              >Interview with Scott Grooves by Elysia Borowy</a
             >
           </li>
         </ul>
@@ -49,18 +56,21 @@
         </NGradientText>
       </div>
     </section>
-    
+  -->
     <section>
       <div class="h-full w-full tracking-tighter">
-        <NGradientText :gradient="{
-          from: 'rgb(0, 0, 0)',
-          to: 'rgb(170, 170, 170)'
-        }" :size="52">
-          Sketch Book
+        <NGradientText
+          :gradient="{
+            from: 'rgb(0, 0, 0)',
+            to: 'rgb(170, 170, 170)'
+          }"
+          :size="52"
+        >
+          Photos from Recent Events
         </NGradientText>
       </div>
     </section>
-  --></div>
+  </div>
 </template>
 <style scoped>
   .carousel-img {

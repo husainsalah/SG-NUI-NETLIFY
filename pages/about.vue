@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div>
+  <div class="w-4/5 mx-auto">
     <section>
       <div class="grid-flow-col gap-4 auto-cols-min">
         <div class="flex tracking-tighter">
@@ -255,9 +255,14 @@
           composition and be normal again…whatever that is.This restoration process begins the day the everydayness
           stops.
         </div>
+
         <div class="para">
           3AM Thought: Listening to music doesn’t directly influence my work, but it does affect my mood which helps the
           mobility of my work. Fragments in my head join other fragments and form new ideas.
+        </div>
+        <div class="para">
+          Art and music helped me dream beyond the challenges and limitations of my immediate surroundings- just another
+          3am thought
         </div>
       </div>
     </section>

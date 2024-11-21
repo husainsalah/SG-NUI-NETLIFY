@@ -2,7 +2,6 @@
   <AppProviders v-bind="configProviderProps">
     <NGlobalStyle />
     <NuxtLayout name="default">
-      {{ isDark }}
       <NuxtPage />
     </NuxtLayout>
   </AppProviders>
