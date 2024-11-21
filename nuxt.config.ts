@@ -75,6 +75,5 @@ export default defineNuxtConfig({
     }
   },
 
-  modules: ['@nuxtjs/tailwindcss', '@nuxtseo/module'],
-  compatibilityDate: '2024-11-18'
+  modules: ['@nuxtjs/tailwindcss', '@nuxtseo/module']
 })
