@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   },
 
   typescript: {
-    // strict: true
+    strict: true
   },
 
   // https://nuxt.com/docs/api/configuration/nuxt-config#css
@@ -20,7 +20,7 @@ export default defineNuxtConfig({
   // https://nuxt.com/docs/api/configuration/nuxt-config#build
   build: {
     transpile: isProd
-      ? ['naive-ui', 'vueuc', '@css-render/vue3-ssr', '@juggle/resize-observer']
+      ? ['naive-ui', 'vueuc', '@css-render/vue3-ssr', '@juggle/resize-observer', 'date-fns']
       : ['@juggle/resize-observer']
   },
 
@@ -51,15 +51,14 @@ export default defineNuxtConfig({
   },
 
   optimization: {
-    /*splitChunks:
-    {
+    splitChunks: {
       chunks: 'all',
       minSize: 15000,
       maxSize: 250000,
       maxAsyncRequests: 30,
       maxInitialRequests: 30,
       enforceSizeThreshold: 50000
-    }*/
+    }
   },
 
   site: {
