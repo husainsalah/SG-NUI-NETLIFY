@@ -27,7 +27,7 @@ export default defineNuxtConfig({
   // https://nuxt.com/docs/api/configuration/nuxt-config#vite
   vite: {
     optimizeDeps: {
-      include: isDev ? ['naive-ui', 'vueuc', 'date-fns-tz/formatInTimeZone'] : []
+      include: isDev ? ['naive-ui', 'vueuc', 'date-fns/index.js'] : []
     },
 
     css: {
@@ -51,14 +51,15 @@ export default defineNuxtConfig({
   },
 
   optimization: {
-    splitChunks: {
+    /*splitChunks:
+    {
       chunks: 'all',
       minSize: 15000,
       maxSize: 250000,
       maxAsyncRequests: 30,
       maxInitialRequests: 30,
       enforceSizeThreshold: 50000
-    }
+    }*/
   },
 
   site: {
