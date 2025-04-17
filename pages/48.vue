@@ -9,9 +9,16 @@
               controls
               class="mx-auto py-2"
             >
-              <source src="/sound/48.mp3" />
+              <source
+                src="/sound/48.mp3"
+                type="audio/mpeg"
+              />
+              Your browser does not support the audio element.
             </audio>
-            <img src="/images/48-crop.jpg" />
+            <img
+              src="/images/48-crop.jpg"
+              alt="DJ-Set #48"
+            />
           </div>
         </section>
       </div>
