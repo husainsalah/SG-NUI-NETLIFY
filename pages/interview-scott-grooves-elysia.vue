@@ -211,7 +211,7 @@
   .exhibit-img {
     width: auto;
     height: 100%;
-    object-fit: flex-grow;
     text-align: center;
+    object-fit: flex-grow;
   }
 </style>

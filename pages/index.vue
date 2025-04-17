@@ -12,15 +12,15 @@
   </div>
 </template>
 <style scoped>
-  /*section {
+  /* section {
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
-}*/
+} */
 
   img {
     width: auto;
     height: 80vh;
-    object-fit: contain;
     margin: auto;
+    object-fit: contain;
   }
 </style>
