@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="relative flex items-center justify-center overflow-none">
-      <div class="relative justify-center w-full font-hairline overflow-none">
+    <div class="relative flex items-center justify-center">
+      <div class="relative justify-center w-full font-hairline">
         <section>
           <div class="flex flex-col z-10 hairline text-2xl py-2">
             <h2 class="mx-auto py-2"><i>DJ SET</i>#7</h2>
@@ -9,9 +9,16 @@
               controls
               class="mx-auto py-2"
             >
-              <source src="/sound/7.mp3" />
+              <source
+                src="/sound/7.mp3"
+                type="audio/mpeg"
+              />
+              Your browser does not support the audio element.
             </audio>
-            <img src="/images/7-crop.jpg" />
+            <img
+              src="/images/7-crop.jpg"
+              alt="DJ-Set #7"
+            />
           </div>
         </section>
       </div>
