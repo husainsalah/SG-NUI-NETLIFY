@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="relative flex items-center justify-center overflow-none">
-      <div class="relative justify-center w-full font-hairline overflow-none">
+    <div class="relative flex items-center justify-center">
+      <div class="relative justify-center w-full font-hairline">
         <section>
           <div class="grid z-10 hairline text-2xl py-2">
             <h2 class="mx-auto py-2"><i>DJ SET</i>#48</h2>
