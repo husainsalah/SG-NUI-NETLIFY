@@ -16,7 +16,7 @@
               Your browser does not support the audio element.
             </audio>
             <img
-              src="/images/27-crop.jpg"
+              src="/images/27-crop-2.jpg"
               alt="DJ-Set #27"
             />
           </div>
